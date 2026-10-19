@@ -1,0 +1,15 @@
+# Archivos de compilación
+*.o
+*.obj
+*.exe
+*.out
+
+# Carpetas de IDE
+.vs/
+.vscode/
+*.user
+*.cbp
+bin/
+obj/
+Debug/
+Release/
