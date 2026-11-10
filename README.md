@@ -7,7 +7,6 @@ Aplicación de consola en C++ para administrar la planilla de un hospital: emple
 
 ## Integrantes
 
-| Nombre completo | Cédula |
 Dylan Madrigal Muñoz |  605050266
 
 Trabajo individual.
