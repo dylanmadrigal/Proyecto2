@@ -90,10 +90,10 @@ Si se editan a mano, deben respetar este orden; de lo contrario el programa pued
 - Departamento y Puesto: composición (un departamento contiene sus puestos y los puestos no existen sin él).
 - ComprobantePago: agregación (apunta a un `Empleado` y a un `Departamento` sin ser su dueño).
 - Listas dinámicas manuales (`ListaEmpleados`, `ListaPuestos`, `ListaDepartamentos`, `ListaComprobantes`) con sus nodos: listas enlazadas simples, sin usar contenedores de la biblioteca estándar.
-- **CalculadoraPlanilla: todos los cálculos de salario y deducciones.
-- **PersistenciaArchivos: lectura y escritura de los archivos de texto.
-- **Validaciones: cédula, textos, montos y fechas.
-- **GestorEmpleados, GestorDepartamentos, GestorPlanilla: reglas de negocio de cada área; asociación con las listas, la persistencia y las validaciones.
+- CalculadoraPlanilla: todos los cálculos de salario y deducciones.
+- PersistenciaArchivos: lectura y escritura de los archivos de texto.
+- Validaciones: cédula, textos, montos y fechas.
+- GestorEmpleados, GestorDepartamentos, GestorPlanilla: reglas de negocio de cada área; asociación con las listas, la persistencia y las validaciones.
 
 Las clases de entidades y los gestores no usan `cin` ni `cout`. toda la interacción con el usuario está en `main.cpp`.
 
@@ -103,12 +103,4 @@ Las clases de entidades y los gestores no usan `cin` ni `cout`. toda la interacc
 - Sustitución de Liskov (LSP): cualquier hija de `Empleado` puede usarse donde se espera un `Empleado`.
 
 ### Manejo de memoria
-Cada lista es dueña de sus elementos y los libera en su destructor. `ComprobantePago` no borra al empleado ni al departamento que apunta. El proyecto fue revisado con las herramientas de detección de errores de memoria (`-fsanitize=address`) sin fugas.
-
-## Estructura del repositorio
-
-```
-ProyectoPlanilla/    código fuente (.h y .cpp) y carpeta data/
-docs/                diagrama UML
-README.md
-```
+Cada lista es dueña de sus elementos y los libera en su destructor. `ComprobantePago` no borra al empleado ni al departamento que apunta. 
