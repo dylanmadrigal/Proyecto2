@@ -8,13 +8,6 @@ El programa también realiza los cálculos de salarios, bonificaciones y deducci
 
 #Integrante
 Dylan Madrigal Muñoz | 605050266
-## Cómo ejecutar el programa
-Con ZinjaI
-1. Descargar o clonar el repositorio.
-2. Abrir el proyecto desde la carpeta ProyectoPlanilla.
-3. Verificar que exista la carpeta data con los archivos necesarios.
-4. Compilar y ejecutar
-
 ## Guía de uso
 Al iniciar el programa, se muestra un menú principal con las siguientes opciones:
 Empleados
