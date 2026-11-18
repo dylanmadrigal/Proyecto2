@@ -17,13 +17,10 @@ Salir
 
 La opcion de Empleados
 Permite registrar, consultar, modificar y eliminar empleados. Se pueden agregar médicos, enfermeros y administrativos 
-
 La opcion de Departamento y puestos
 permite registrar y administrar los diferentes departamentos del hospital y los puestos que pertenecen a cada uno.
-
 La opcion de Planilla y comprobantes
 Permite generar, consultar y eliminar comprobantes de pago. El programa calcula automáticamente el salario bruto, las deducciones y el salario neto.
-
 El calculo de salarios
 Para calcular los pagos se toma en cuenta el salario base, las horas extra y las bonificaciones correspondientes a cada tipo de empleado.
 También se aplican las deducciones de ley de Costa Rica:
