@@ -6,25 +6,25 @@ Cristopher Montero Jiménez ·
 Este proyecto consiste en un programa desarrollado en C++ para administrar la planilla de un hospital. Permite registrar empleados, organizar departamentos y puestos, y generar comprobantes de pago.
 El programa también realiza los cálculos de salarios, bonificaciones y deducciones. Además, guarda la información en archivos de texto para que los datos no se pierdan al cerrar el programa.
 
-#Integrante
+Integrante
 Dylan Madrigal Muñoz | 605050266
-## Guía de uso
+
 Al iniciar el programa, se muestra un menú principal con las siguientes opciones:
 Empleados
 Departamentos y puestos
 Planilla y comprobantes
 Salir
 
-# Empleados
+La opcion de Empleados
 Permite registrar, consultar, modificar y eliminar empleados. Se pueden agregar médicos, enfermeros y administrativos 
 
-#Departamento y puestos
+La opcion de Departamento y puestos
 permite registrar y administrar los diferentes departamentos del hospital y los puestos que pertenecen a cada uno.
 
-#Planilla y comprobantes
+La opcion de Planilla y comprobantes
 Permite generar, consultar y eliminar comprobantes de pago. El programa calcula automáticamente el salario bruto, las deducciones y el salario neto.
 
-# El calculo de salarios
+El calculo de salarios
 Para calcular los pagos se toma en cuenta el salario base, las horas extra y las bonificaciones correspondientes a cada tipo de empleado.
 También se aplican las deducciones de ley de Costa Rica:
 - SEM: 5,50 %.
@@ -32,7 +32,7 @@ También se aplican las deducciones de ley de Costa Rica:
 - Banco Popular: 1 %.
 - Impuesto sobre el salario según el monto recibido.
 
-# los archivos de datos
+los archivos de datos
 La información del programa se guarda en tres archivos de texto ubicados en la carpeta `data`:
 
 empleados.txt: información de los empleados.
